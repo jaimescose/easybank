@@ -1,0 +1,50 @@
+.articles {
+    text-align: left;
+    background-color: var(--veryLightGray);
+    
+    &__grid {
+        display: grid;
+        grid-row-gap: 1.5em;
+    }
+
+    &__item {
+        border-radius: 0.5em;
+        overflow: hidden;
+        background-color: var(--white);
+        
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        &_content {
+            padding: 1em 1.8em;
+        }
+
+        &_author {
+            font-size: 0.6em;
+            color: var(--grayishBlue);
+        }
+
+        &_summary {
+            color: var(--grayishBlue);
+            font-size: 0.8em;
+            margin-top: .8em;
+            margin-bottom: 1.5em;
+        }
+
+        &_subtitle {
+            color: var(--darkBlue);
+            margin: 0.5em 0;
+        }
+    }
+
+    &__title {
+        font-size: 2em;
+        color: var(--darkBlue);
+        font-weight: 400;
+        margin-bottom: 0.5em;
+        margin-top: 0.8em;
+        text-align: center;
+    }
+}

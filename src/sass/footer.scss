@@ -1,0 +1,53 @@
+@mixin icon {
+    width: 1.3em;
+    height: 1.3em;
+}
+
+.footer {
+    background-color: var(--darkBlue);
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+    a {
+        color: var(--veryLightGray);
+    }
+
+    &__grid {
+        display: grid;
+        align-items: center;
+    }
+
+    &__social {
+        margin: 1em auto;
+        a {
+            margin: 0.4em 0.3em;
+            img {
+                @include icon();
+            }
+        }
+    }
+
+    &__nav {
+        display: grid;
+        row-gap: 0.9em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-bottom: 1em;
+        a {
+            text-decoration: none;
+            font-size: 0.8em;
+            font-weight: 300;
+        }
+    }
+
+    &__logo {
+        margin: 0.5em;
+    }
+
+    &__copyright {
+        font-size: 0.85em;
+        color: var(--grayishBlue);
+        margin-top: 2em;
+    }
+}

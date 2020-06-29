@@ -1,0 +1,37 @@
+@import "./header.scss";
+@import "./menu.scss";
+@import "./hero.scss";
+@import "./why.scss";
+@import "./articles.scss";
+@import "./footer.scss";
+
+:root {
+    --darkBlue: hsl(233, 26%, 24%);
+    --limeGreen: hsl(136, 65%, 51%);
+    --brightCyan: hsl(192, 70%, 51%);
+    --grayishBlue: hsl(233, 8%, 62%);
+    --lightGrayishBlue: hsl(220, 16%, 96%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+    --wrapperPadding: 1.2em;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.wrapper {
+    padding: 0 var(--wrapperPadding);
+}
+
+.button {
+    padding: 1em 3em;
+    background-image: linear-gradient(to right, var(--limeGreen) 0%, var(--brightCyan) 100%);
+    border-radius: 2em;
+    color: var(--white);
+    font-weight: 400;
+    border: 0;
+}

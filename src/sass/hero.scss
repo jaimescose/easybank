@@ -1,0 +1,36 @@
+.hero {
+    text-align: center;
+    padding-bottom: 4em;
+
+    &__image {
+        height: 300px;
+        margin: 0 calc(-1 * var(--wrapperPadding));
+        background: url('../../images/image-mockups.png') center bottom no-repeat,
+        url('../../images/bg-intro-mobile.svg') center no-repeat;
+        background-size: 345px, cover;
+    }
+
+    &__title {
+        font-size: 2.3em;
+        color: var(--darkBlue);
+        font-weight: 400;
+        margin-bottom: 0.5em;
+        margin-top: 0.8em;
+    }
+
+    &__subtitle {
+        font-size: 2.3em;
+        color: var(--darkBlue);
+        font-weight: 400;
+        margin-bottom: 0.5em;
+        margin-top: 0.8em;
+    }
+
+    &__text {
+        color: var(--grayishBlue);
+        font-size: 0.9em;
+        font-weight: 400;
+        line-height: 1.5em;
+        margin-bottom: 2em;
+    }
+}
