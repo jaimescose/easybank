@@ -1,0 +1,2 @@
+# easybank
+First UI training
