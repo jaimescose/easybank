@@ -1,3 +1,7 @@
+# easybank
+First UI training using https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN
+
+
 # Frontend Mentor - Easybank landing page
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
